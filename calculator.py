@@ -1,0 +1,14 @@
+a=int(input('ENTER A NO.'))
+b=int(input('ENTER ANOTHER NO.'))
+Sum=a+b
+Sub=a-b
+Mul=a*b
+Div=a/b
+Exp=a**b
+FDiv=a//b
+print('SUM=',Sum)
+print('DIFFERENCE=',Sub)
+print('PRODUCT =',Mul)
+print('A DIVIDED BY B=',Div)
+print('FLOOR DIVISION =',FDiv)
+print('EXPONENT=',Exp)
