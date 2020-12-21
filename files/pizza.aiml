@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern> Hello </pattern>
+	    <template>Hello sir\madam, How can I help you??</template>
+	</category>
+	<category>
+	    <pattern> I * </pattern>
+	    <template>Excellent sir\mam, what pizza would u like to have... VEG or NON-VEG</template>
+	</category>
+	<category>
+	    <pattern> VEG </pattern>
+	    <template>we have a lots of varieties sir\mam please choose....
+	    Farm House Pizza--$3;
+	    Traditional Delight--$2;
+	    Chessy Overload--$3.5;
+	    Paneer Tikka Pizza--$3;
+	    English Chedar--$4;
+	    Spicy Delight--$2.5; </template>
+	</category>
+	<category>
+	    <pattern>NON VEG </pattern>
+	    <template>we have a lots of varieties sir\mam please choose....
+	    chick chick Pizza--$4;
+	    Traditional chicken Delight--$3.5;
+	    Chessy chicken Overload--$5.5;
+	    Chicken Tikka Pizza--$3;
+	    Australian chicken Barbeque--$5;
+	    Smocky Chicken Delight--$6; 
+	    Chilli Chicken Pizza--$4.5;</template>
+	</category>
+	<category>
+	    <pattern> *  </pattern>
+	    <template>please wait a while sir\mam as I process your order..... May I know your mode of payment(Net Banking\UPI\COD)?? </template>
+	   	</category>
+	<category>
+	    <pattern> Net banking </pattern>
+	    <template>Thank you sir\madam!!Your Order has been placed, your estimated delivery time is 30 minutes </template>
+	</category>
+	<category>
+	    <pattern> UPI </pattern>
+	    <template>Thank you sir\madam!!Your Order has been placed, your estimated delivery time is 30 minutes </template>
+	</category>
+	<category>
+	    <pattern> COD </pattern>
+	    <template>Thank you sir\madam!!Your Order has been placed, your estimated delivery time is 30 minutes.... please collect your order at your doorstep and pay the bill with proper COVID-19 measures </template>
+	</category>
+	<category>
+	    <pattern> Thank you </pattern>
+	    <template>Its all my pleasure!!Do visit us again!! We are always here to serve you !! </template>
+	</category>
+</aiml>
